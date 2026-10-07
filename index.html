@@ -8,19 +8,504 @@
     <title>Ruoxi Yang</title>
 
     <link rel="stylesheet" href="css/style.css">
+
+    <!-- Font Awesome Icons -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    >
 </head>
+
 
 <body>
 
-    <h1>Ruoxi Yang</h1>
+<!-- =====================================================
+     HEADER / NAVIGATION
+====================================================== -->
 
-    <p>
-        M.S. in Biostatistics
-    </p>
+<header class="site-header">
 
-    <p>
-        Welcome to my personal website!
-    </p>
+    <nav class="navbar">
+
+        <a href="#home" class="nav-home">
+            Homepage
+        </a>
+
+        <div class="nav-links">
+            <a href="#about">About Me</a>
+            <a href="#news">News</a>
+            <a href="#publications">Publications</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Research Experience</a>
+        </div>
+
+    </nav>
+
+</header>
+
+
+<div class="container" id="home">
+
+
+    <!-- =====================================================
+         LEFT SIDEBAR
+    ====================================================== -->
+
+    <aside class="sidebar">
+
+        <!-- Profile Photo -->
+        <img
+            src="assets/images/profile.jpg"
+            alt="Ruoxi Yang"
+            class="profile-photo"
+        >
+
+
+        <!-- Name -->
+        <h1>Ruoxi Yang</h1>
+
+
+        <!-- Current Position -->
+        <p class="position">
+            Senior Research Technician
+        </p>
+
+        <p class="institution">
+            The Ohio State University<br>
+            Wexner Medical Center
+        </p>
+
+
+        <!-- Links -->
+        <div class="social-links">
+
+            <a href="mailto:yruoxi0206@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span>Email</span>
+            </a>
+
+            <a
+                href="https://github.com/yruoxi00"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+            </a>
+
+            <a
+                href="https://scholar.google.com/citations?user=2RIg9sAAAAAJ&hl=en"
+                target="_blank"
+                rel="noopener noreferrer"
+            >
+                <i class="fa-solid fa-graduation-cap"></i>
+                <span>Google Scholar</span>
+            </a>
+
+        </div>
+
+    </aside>
+
+
+
+    <!-- =====================================================
+         MAIN CONTENT
+    ====================================================== -->
+
+    <main class="content">
+
+
+        <!-- =================================================
+             ABOUT
+        ================================================== -->
+
+        <section class="about" id="about">
+
+            <h2>Hi, nice to meet you!</h2>
+
+            <p>
+                I am Ruoxi Yang, currently a Senior Research Technician at
+                The Ohio State University Wexner Medical Center.
+                I earned my M.S. in Biostatistics from New York University
+                and my B.A. in Statistics from Rutgers University–New Brunswick.
+            </p>
+
+            <p>
+                My research interests include biomedical AI,
+                bioinformatics, and statistical genomics.
+            </p>
+
+        </section>
+
+
+
+        <!-- =================================================
+             NEWS
+        ================================================== -->
+
+        <section class="news" id="news">
+
+            <h2>🔥 News</h2>
+
+            <ul>
+
+                <li>
+                    <strong>Jun 2026:</strong>
+                    Our paper
+                    <em>
+                        Prevalence Aware Feature Selection Improves
+                        Biomarker Identification in Microbiome Studies
+                    </em>
+                    was published in <em>Bioinformatics</em>.
+                </li>
+
+                <li>
+                    <strong>Nov 2025:</strong>
+                    Our work on dietary and oral microbial signatures
+                    associated with MASLD fibrosis was presented at
+                    The Liver Meeting (AASLD 2025) in Washington, DC.
+                </li>
+
+                <li>
+                    <strong>May 2025:</strong>
+                    I presented our work on oral microbiome diversity
+                    and liver fibrosis at Digestive Disease Week
+                    (DDW 2025) in San Diego, CA.
+                </li>
+
+                <li>
+                    <strong>Apr 2025:</strong>
+                    Our work on oral microbiome and metabolic-immune
+                    profiles in MASLD was presented at the 11th
+                    New York City Epidemiology Forum (NYCEF 2025)
+                    in Hempstead, NY.
+                </li>
+
+            </ul>
+
+        </section>
+
+
+
+        <!-- =================================================
+             PUBLICATIONS
+        ================================================== -->
+
+        <section class="publications" id="publications">
+
+            <h2>📝 Publications</h2>
+
+            <h3>Journal Articles</h3>
+
+
+            <!-- Journal Article 1 -->
+
+            <div class="publication">
+
+                <p class="paper-title">
+                    Prevalence Aware Feature Selection Improves
+                    Biomarker Identification in Microbiome Studies
+                </p>
+
+                <p class="authors">
+                    <strong>Ruoxi Yang</strong>,
+                    Y. Li,
+                    K. Sankaran,
+                    T. A. Mace,
+                    P. A. Hart,
+                    Q. Ma,
+                    X.-W. Wang,
+                    S. Ke*
+                </p>
+
+                <p class="venue">
+                    <em>Bioinformatics</em>, 42(7), btag371.
+                </p>
+
+                <p class="paper-links">
+                    <a
+                        href="https://doi.org/10.1093/bioinformatics/btag371"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Paper
+                    </a>
+                </p>
+
+            </div>
+
+
+            <!-- Journal Article 2 -->
+
+            <div class="publication">
+
+                <p class="paper-title">
+                    EpiInfer: A Non-Markovian Method and System
+                    to Forecast Infection Rates in Epidemics
+                </p>
+
+                <p class="authors">
+                    J. Kascelan,
+                    <strong>Ruoxi Yang</strong>,
+                    D. Shasha*
+                </p>
+
+                <p class="venue">
+                    <em>Algorithms</em>, 18(7), 450.
+                </p>
+
+                <p class="paper-links">
+                    <a
+                        href="https://doi.org/10.3390/a18070450"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Paper
+                    </a>
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             CONFERENCE PRESENTATIONS
+        ================================================== -->
+
+        <section class="conferences">
+
+            <h2>🎤 Conference Presentations</h2>
+
+
+            <!-- DDW 2025 -->
+
+            <div class="conference-item">
+
+                <p class="paper-title">
+                    Mo1597: Oral Microbiome Diversity and Its Association
+                    With Liver Fibrosis: Insights From the NHANES
+                    2009–2012 Study
+                </p>
+
+                <p class="authors">
+                    <strong>Ruoxi Yang</strong>,
+                    Y. He,
+                    M. Coronel,
+                    et al.
+                </p>
+
+                <p class="venue">
+                    <em>Gastroenterology</em>,
+                    2025;169(1):S-1809.
+                </p>
+
+                <p class="presentation-info">
+                    Presented at Digestive Disease Week (DDW) 2025,
+                    San Diego, CA.
+                </p>
+
+                <p class="paper-links">
+                    <a
+                        href="https://doi.org/10.1016/S0016-5085(25)05030-9"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        Abstract
+                    </a>
+                </p>
+
+            </div>
+
+
+            <!-- AASLD 2025 -->
+
+            <div class="conference-item">
+
+                <p class="paper-title">
+                    Prospective Cohort Study Identifies Dietary and
+                    Oral Microbial Signatures Associated with
+                    Significant MASLD Fibrosis
+                </p>
+
+                <p class="authors">
+                    X. Zhang,
+                    Y. He,
+                    <strong>Ruoxi Yang</strong>,
+                    M. Coronel,
+                    et al.
+                </p>
+
+                <p class="venue">
+                    <em>Hepatology</em>,
+                    2025;82(S1), Abstract 2039-SAT.
+                </p>
+
+                <p class="presentation-info">
+                    Presented at The Liver Meeting (AASLD 2025),
+                    Washington, DC.
+                </p>
+
+            </div>
+
+
+            <!-- NYCEF 2025 -->
+
+            <div class="conference-item">
+
+                <p class="paper-title">
+                    Characterizing Oral Microbiome and Metabolic-Immune
+                    Profiles in Metabolic Dysfunction-Associated
+                    Steatotic Liver Disease (MASLD): Insights from
+                    the Mount Sinai MASH Registry
+                </p>
+
+                <p class="authors">
+                    Y. He,
+                    <strong>Ruoxi Yang</strong>,
+                    M. Coronel,
+                    X. Zhang
+                </p>
+
+                <p class="presentation-info">
+                    Presented at the 11th New York City Epidemiology
+                    Forum (NYCEF 2025), Hempstead, NY.
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             EDUCATION
+        ================================================== -->
+
+        <section class="education" id="education">
+
+            <h2>📖 Education</h2>
+
+
+            <!-- NYU -->
+
+            <div class="education-item">
+
+                <p class="institution-name">
+                    <strong>New York University</strong>
+                </p>
+
+                <p class="degree">
+                    M.S. in Biostatistics
+                </p>
+
+                <p class="date">
+                    2023 – 2025
+                </p>
+
+            </div>
+
+
+            <!-- Rutgers -->
+
+            <div class="education-item">
+
+                <p class="institution-name">
+                    <strong>Rutgers University–New Brunswick</strong>
+                </p>
+
+                <p class="degree">
+                    B.A. in Statistics, Minor in Psychology
+                </p>
+
+                <p class="date">
+                    2019 – 2023
+                </p>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =================================================
+             RESEARCH EXPERIENCE
+        ================================================== -->
+
+        <section class="experience" id="experience">
+
+            <h2>💻 Research Experience</h2>
+
+
+            <!-- OSU: Multimodal Medical AI -->
+
+            <div class="experience-item">
+
+                <p class="institution-name">
+                    <strong>
+                        The Ohio State University Wexner Medical Center
+                    </strong>
+                </p>
+
+                <p class="role">
+                    Senior Research Technician – Multimodal Medical AI
+                </p>
+
+                <p class="date">
+                    2026 – Present
+                </p>
+
+            </div>
+
+
+            <!-- OSU: Multi-Omics Bioinformatics -->
+
+            <div class="experience-item">
+
+                <p class="institution-name">
+                    <strong>
+                        The Ohio State University Wexner Medical Center
+                    </strong>
+                </p>
+
+                <p class="role">
+                    Senior Research Technician – Multi-Omics Bioinformatics
+                </p>
+
+                <p class="date">
+                    2025 – 2026
+                </p>
+
+            </div>
+
+
+            <!-- Mount Sinai -->
+
+            <div class="experience-item">
+
+                <p class="institution-name">
+                    <strong>
+                        Mount Sinai Health System
+                    </strong>
+                </p>
+
+                <p class="role">
+                    Research Analyst – Statistical Analysis
+                </p>
+
+                <p class="date">
+                    2024 – 2025
+                </p>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+</div>
 
 </body>
 
